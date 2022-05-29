@@ -76,7 +76,10 @@ header p:first-child {
   font-size: 1.6rem;
   font-weight: 600;
 }
-.hero_container button {
+
+.agendar_consulta {
+  width: 100%;
+  height: 100%;
   padding: 0.8em;
   margin-top: 1em;
   border-radius: 10px;
@@ -190,6 +193,7 @@ header p:first-child {
   color: #f1cf14;
   font-weight: 600;
 }
+
 .agendar {
   max-width: 100%;
   margin: 0 auto;
@@ -202,6 +206,9 @@ header p:first-child {
 }
 .agendar:hover {
   background-color: #472945;
+}
+.link_button {
+  margin: 0 auto;
 }
 .informacion {
   max-width: 50%;
@@ -239,8 +246,5 @@ footer p {
   .card_container {
     margin: 0;
     margin-bottom: 1em;
-  }
-  .agendar {
-    width: 80%;
   }
 }
