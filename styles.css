@@ -151,11 +151,12 @@ header p:first-child {
   background-color: #472945;
 }
 .informacion {
-  max-width: 70%;
+  max-width: 50%;
   margin: 0 auto;
   color: #ffffff;
-  padding: 1em;
   font-weight: 100;
+  padding-top: 1em;
+  padding-bottom: 3em;
 }
 footer {
   display: flex;
