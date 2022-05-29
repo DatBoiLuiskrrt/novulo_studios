@@ -26,9 +26,11 @@ header p:first-child {
   display: flex;
   align-items: center;
 }
-.navlogo p {
+.navlogo a {
   padding-right: 2em;
   padding-left: 0.2em;
+  text-decoration: none;
+  color: #ffffff;
 }
 .hero {
   display: flex;
@@ -108,6 +110,9 @@ header p:first-child {
   padding-bottom: 2rem;
   font-weight: 200;
   font-style: italic;
+}
+.whats .insta {
+  text-decoration: none;
 }
 @media screen and (max-width: 450px) {
   .quote {
