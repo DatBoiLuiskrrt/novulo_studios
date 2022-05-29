@@ -43,7 +43,29 @@ header p:first-child {
   padding: 1em 2em;
   text-align: center;
   max-width: 30vw;
-  /* margin: 0 auto; */
+}
+@media screen and (max-width: 810px) {
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero_container {
+    max-width: 100%;
+  }
+  .novulo {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .novulo img {
+    width: 100%;
+  }
+  .navlogo p {
+    font-size: 0.5rem;
+  }
+  header p:first-child {
+    padding-left: 1em;
+  }
 }
 .hero_container h1 {
   font-size: 1.6rem;
@@ -87,6 +109,21 @@ header p:first-child {
   font-weight: 200;
   font-style: italic;
 }
+@media screen and (max-width: 450px) {
+  .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .quote img {
+    width: 40%;
+    align-self: center;
+  }
+  .damian {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 .review {
   padding-left: 0.5rem;
   display: flex;
@@ -115,6 +152,14 @@ header p:first-child {
   margin-right: 1em;
   border-radius: 10px;
   padding: 1em;
+}
+@media screen and (max-width: 810px) {
+  .card_container {
+    margin-right: 1em;
+  }
+  .card_wrap {
+    width: 90%;
+  }
 }
 .card_wrapper {
   display: flex;
@@ -158,6 +203,11 @@ header p:first-child {
   padding-top: 1em;
   padding-bottom: 3em;
 }
+@media screen and (max-width: 810px) {
+  .informacion {
+    max-width: 80%;
+  }
+}
 footer {
   display: flex;
   flex-direction: column;
@@ -172,4 +222,17 @@ footer h2 {
 }
 footer p {
   font-size: 0.8rem;
+}
+@media screen and (max-width: 450px) {
+  .card_wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .card_container {
+    margin: 0;
+    margin-bottom: 1em;
+  }
+  .agendar {
+    width: 80%;
+  }
 }
