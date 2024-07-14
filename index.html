@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <meta name="description" content="Novulo Studios es un lugar donde se ofrece produccion musical, fotografia, video y edicion. Nos ajustamos alas necesidades de nuestros clientes.">
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="https://novulo-studios.vercel.app/">
@@ -31,6 +32,9 @@
     <meta name="description" content="Novulo Studios es un lugar donde se ofrece produccion musical, fotografia, video y edicion. Nos ajustamos alas necesidades de nuestros clientes.">
     <title>Novulo Studios</title>
   </head>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <header>
     <p>Novulo Studios</p>
     <div class="navlogo">
@@ -57,8 +61,42 @@
     </div>
   </header>
   <body>
-    <div class="hero">
-      <div class="hero_container">
+    <div class="hero" style="height: 100%;">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin: auto;">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./images/AlbumCover.jpg" alt="First slide" style="max-width: 400px; max-height: 360px;">
+            <a href="tel:+526567654436" >
+              <button class="agendar_consulta">Escucha el Nuevo Album de Elias Rodriguez</button>
+          </a>
+          </div>
+          <div class="carousel-item" style="max-width:60vw; height: 700px;">
+            <img class="d-block w-100" src="./images/NovuloLogo.jpeg" alt="Second slide" style="max-width: 400px;">
+            <h5>Novulo Studios</h5>
+            <p>
+              Aquí en novulo Studios nos ajustamos a las necesidades de nuestros clientes. Entendemos que en el
+              comienzo puede ser difícil para un artista emergente de cualquier rama
+              y es por eso que estamos aquí.
+            </p>
+            <a href="tel:+526567654436" >
+                <button class="agendar_consulta">Agenda Consulta Gratis</button>
+            </a>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" style="color:black" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" style="color:black" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- <div class="hero_container">
         <h1>Acerca de Nosotros</h1>
         <p>
           Aquí en novulo Studios somos un lugar en donde se ofrecen diferente
@@ -77,7 +115,7 @@
           src="./images/WhatsApp Image 2022-05-27 at 9.25.24 PM.jpeg"
           alt="Logo de novulo studios"
         />
-      </div>
+      </div> -->
     </div>
     <section class="quotes">
       <h2>Mira lo que dicen nuestros clientes ⭐⭐⭐⭐⭐</h2>
