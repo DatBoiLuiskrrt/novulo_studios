@@ -248,3 +248,23 @@ footer p {
     margin-bottom: 1em;
   }
 }
+.songs {
+  background-color: #e5e5e5;
+  color: #ffffff;
+  text-align: center;
+}
+@media screen and (max-width: 450px) {
+  .songs{
+    display: flex;
+    flex-direction: column;
+  }
+  .song_wrapper{
+    width:80%;
+  }
+}
+/* @media screen and (min-width: 100px){
+  .song_wrapper{
+    width:100%;
+    border:1px solid red;
+  }
+} */
