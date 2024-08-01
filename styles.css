@@ -238,6 +238,7 @@ footer h2 {
 footer p {
   font-size: 0.8rem;
 }
+
 @media screen and (max-width: 450px) {
   .card_wrap {
     display: flex;
