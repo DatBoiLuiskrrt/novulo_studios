@@ -60,23 +60,27 @@
 </header>
 
 <body>
-  <div class="hero" style="height: 100%;">
+  <div class="hero" style="height: 100%; display:flex; flex-direction: column;">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin: auto;">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       </ol>
-      <div class="carousel-inner">
+      <div class="carousel-inner" style="max-width:60vw">
         <div class="carousel-item active">
           <img class="d-block w-100" src="./images/AlbumCover.jpg" alt="First slide"
-            style="max-width: 400px; max-height: 360px;">
+            style="max-width: 400px; max-height: 70vh; margin: auto;">
           <br />
           <a href="#songs" style="padding-bottom:1.2em;">
-            <button class="agendar_consulta" style="margin-bottom:3em;">Escucha el Nuevo Album de Elias Rodriguez</button>
+            <button class="agendar_consulta">Escucha el Hemisferio Derecho de Elias Rodriguez</button>
+          </a>
+          <a href="#relatos">
+            <button class="agendar_consulta" >Relatos del Norte disponible el 1 de Enero 2025</button>
           </a>
         </div>
-        <div class="carousel-item" style="max-width:60vw; height: 700px;">
-          <img class="d-block w-100" src="./images/NovuloLogo.jpeg" alt="Second slide" style="max-width: 400px;">
+        
+        <div class="carousel-item"; style="max-width:60vw;">
+          <img class="d-block w-100" style="margin: auto; max-height:60vh" src="./images/NovuloLogo.jpeg" alt="Second slide" style="max-width: 400px;">
           <h5>Novulo Studios</h5>
           <p>
             Aquí en novulo Studios nos ajustamos a las necesidades de nuestros clientes. Entendemos que en el
@@ -96,7 +100,9 @@
         <span class="carousel-control-next-icon" style="color:black" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
+      
     </div>
+    
     <!-- <div class="hero_container">
         <h1>Acerca de Nosotros</h1>
         <p>
@@ -209,7 +215,7 @@
       vía zoom o por mensaje privado sin ningún compromiso.
     </p>
   </section>
-  <section class="songs" style="display:flex; margin-bottom: 2em;" id="songs">
+  <section class="songs" style="display:flex;" id="songs">
     <div style="color:#494b4e; padding: 1em 0em; display:flex; justify-content:center;margin:auto;" class="col-6">
       <!-- <h4>Hemisferio Derecho</h4> -->
       <img class="d-block w-100" src="./images/AlbumCover.jpg"  alt="First slide"
@@ -281,6 +287,10 @@
       </div>
       
     </div>
+  </section>
+  <section class="quotes" style="padding-bottom: 3em;" id="relatos">
+    <h3>Relatos del Norte - Proximamente ! </h3>
+    <img src="./images/RelatosDelNorteAlbumCover.jpg" style="max-width: 80vh; max-height:80vh;"/>
   </section>
 </body>
 <footer>
