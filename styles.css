@@ -88,6 +88,12 @@ header p:first-child {
   font-weight: 400;
   font-size: 1.1rem;
 }
+@media screen and (max-width: 600px) {
+  .agendar_consulta {
+    width:100%;
+    padding:1.2rem 1rem;
+  }
+}
 .hero_container button:hover {
   background-color: #472945;
 }
@@ -106,6 +112,17 @@ header p:first-child {
   padding-top: 4rem;
 }
 .quotes h2 {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.relatos {
+  background-color: #494b4e;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 4rem;
+}
+.relatos h2 {
   font-size: 1.5rem;
   padding-bottom: 2rem;
 }
